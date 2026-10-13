@@ -1,0 +1,25 @@
+# 1. SECRET ENVIRONMENT VARIABLES
+.env
+*.env
+
+# 2. LOCAL DATABASE
+*.db
+water_tracker.db
+
+# 3. PYTHON CACHE & COMPILED FILES
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. SYSTEM & APPLICATION LOGS
+*.log
+app.log
+
+# 5. IDE & EDITOR SETTINGS
+.vscode/
+.idea/
+
+# 6. VIRTUAL ENVIRONMENTS
+venv/
+env/
+.venv/
